@@ -1,0 +1,28 @@
+mkdir = cria um novo diretorio
+cat = visualiza um arquivo
+cat > = cria um novo arquivo
+mv = move um arquivo ou renomeia
+mv + diretorio e aquivo + diretorio pra onde quer mover = mover arquivo de um diretorio para outro.
+rmdir = apaga um diretorio
+pwd = mostra o caminho completo
+touch = cria arquivosS
+head -5 (nome do arquivo) = lista os 5 primeiros arquivos
+rm -rf = apaga tudo
+git addé um comando usado para adicionar um arquivo que está no diretório de trabalho à área de teste.
+git commité um comando usado para adicionar todos os arquivos que são testados no repositório local.
+git pushé um comando usado para adicionar todos os arquivos confirmados no repositório local ao repositório remoto. Portanto, no repositório remoto, todos os arquivos e alterações estarão visíveis para qualquer pessoa com acesso ao repositório remoto.
+git fetché um comando usado para obter arquivos do repositório remoto para o repositório local, mas não para o diretório de trabalho.
+git mergeé um comando usado para obter os arquivos do repositório local para o diretório de trabalho.
+git pullé o comando usado para obter arquivos do repositório remoto diretamente no diretório de trabalho. É equivalente a a git fetche a git merge.
+
+sequencia: git add . / git commit -m "" / git push origin master
+
+##Modelo
+
+echo "# teste1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:nildenik/teste1.git
+git push -u origin main
