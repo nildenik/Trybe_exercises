@@ -42,13 +42,18 @@
 //   console.log("não é um triangulo!")
 
 // }
-let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+// let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 
-for(let i = 0; i < groceryList.length; i += 1){
-  console.log(groceryList[i]);
-}
-let cars = ["Saab", "Volvo", "BMW"];
+// for(let i = 0; i < groceryList.length; i += 1){
+//   console.log(groceryList[i]);
+// }
+// let cars = ["Saab", "Volvo", "BMW"];
 
-for (let index = 0; index < cars.length; index += 1) {
-  console.log(cars[index]);
+// for (let index = 0; index < cars.length; index += 1) {
+//   console.log(cars[index]);
+// }
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+for(let letras of names){
+  
+  console.log ([letras]);
 }
