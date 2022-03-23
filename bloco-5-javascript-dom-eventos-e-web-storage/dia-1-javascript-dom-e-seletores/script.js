@@ -8,9 +8,12 @@
 
 // No getElementsByClassName é preciso passar a posição [0]
 
-let doisParagrafos = document.getElementsByClassName("classeTeste");
+// let doisParagrafos = document.getElementsByClassName("classeTeste");
 
-for (var i = 0; i < doisParagrafos.length; i+=1){
-    doisParagrafos[i].innerText = "trocando os elemnetos";
-}
+// for (var i = 0; i < doisParagrafos.length; i+=1){
+//     doisParagrafos[i].innerText = "trocando os elementos";
 
+// }
+
+let mudarCor = document.getElementsByClassName("classeTeste")[0];
+mudarCor.style.backgroundColor = "red";
