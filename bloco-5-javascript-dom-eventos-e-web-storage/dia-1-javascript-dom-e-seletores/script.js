@@ -1,0 +1,1 @@
+console.log(document.getElementById("teste1").innerText = "Frase de substituição do segundo paragrafo");
