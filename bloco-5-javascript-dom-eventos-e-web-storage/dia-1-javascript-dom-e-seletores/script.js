@@ -1,19 +1,9 @@
-// const paragraph = document.getElementById("paragraph");
-// paragraph.style.color = "red";
+document.getElementById("header-container").style.backgroundColor = "green";
+document.querySelector(".emergency-tasks").style.backgroundColor= "pink";
+document.querySelector(".no-emergency-tasks").style.backgroundColor = "yellow";
 
-// document.getElementById("page-title").innerText = "The lord of the rings";
-// document.getElementById("secondParagraph").innerText = "Este paragrafo vou colocar uma fonte diferente e mudar a cor";
-// secondParagraph.style.color = "blue";
-// document.getElementById("subtitle").innerText = "Este agora é o subtitulo alterado"
+document.getElementsByTagName("h3")[0].style.backgroundColor = "purple";
+document.getElementsByTagName("h3")[1].style.backgroundColor = "purple";
+document.getElementsByTagName("h3")[2].style.backgroundColor = "black";
+document.getElementsByTagName("h3")[3].style.backgroundColor = "black";
 
-// No getElementsByClassName é preciso passar a posição [0]
-
-// let doisParagrafos = document.getElementsByClassName("classeTeste");
-
-// for (var i = 0; i < doisParagrafos.length; i+=1){
-//     doisParagrafos[i].innerText = "trocando os elementos";
-
-// }
-
-let mudarCor = document.getElementsByClassName("classeTeste")[0];
-mudarCor.style.backgroundColor = "red";
