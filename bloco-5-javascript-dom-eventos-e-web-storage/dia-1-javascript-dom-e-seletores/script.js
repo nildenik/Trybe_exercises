@@ -1,9 +1,17 @@
-document.getElementById("header-container").style.backgroundColor = "green";
-document.querySelector(".emergency-tasks").style.backgroundColor= "pink";
-document.querySelector(".no-emergency-tasks").style.backgroundColor = "yellow";
 
-document.getElementsByTagName("h3")[0].style.backgroundColor = "purple";
-document.getElementsByTagName("h3")[1].style.backgroundColor = "purple";
-document.getElementsByTagName("h3")[2].style.backgroundColor = "black";
-document.getElementsByTagName("h3")[3].style.backgroundColor = "black";
+    document.getElementsByTagName("p")[1].innerText ="Me vejo daqui a dois anos uma otima desenvolvedora com uma carreira promissora, com o salário bacana, inglês fluente e trabalhando pra alguma empresa europeia.";
+    
+    document.getElementsByTagName("p")[0].style.textTransform = "uppercase";
+    
+
+    document.getElementsByTagName("h1")[0].innerText = "Exercício 5.1 - Java Script";
+
+    document.getElementsByClassName("main-content")[0].style.backgroundColor = "rgb(76,164,109)";
+    document.getElementById("branco").style.backgroundColor = "white";
+
+    console.log (document.querySelectorAll("p"));
+
+
+
+
 
