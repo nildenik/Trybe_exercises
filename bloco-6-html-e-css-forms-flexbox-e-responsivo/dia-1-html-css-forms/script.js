@@ -1,26 +1,26 @@
-// SELETORES
-const INPUT_TEXT = document.querySelector("#input-text");
-const INPUT_CHECKBOX = document.querySelector("#input-checkbox");
-const HREF_LINK = document.querySelector("#href");
+// // SELETORES
+// const INPUT_TEXT = document.querySelector("#input-text");
+// const INPUT_CHECKBOX = document.querySelector("#input-checkbox");
+// const HREF_LINK = document.querySelector("#href");
 
-let eventoClique = HREF_LINK.addEventListener('click',clickEvento)
+// let eventoClique = HREF_LINK.addEventListener('click',clickEvento)
 
-function clickEvento(clique){
-clique.preventDefault();
-}
+// function clickEvento(clique){
+// clique.preventDefault();
+// }
 
 
-let caixaBox = INPUT_CHECKBOX.addEventListener('click',eventoNulo)
+// let caixaBox = INPUT_CHECKBOX.addEventListener('click',eventoNulo)
 
-function eventoNulo(event){
-    event.preventDefault();
+// function eventoNulo(event){
+//     event.preventDefault();
 
-}
+// }
 
-let eventoKeyPress = INPUT_TEXT.addEventListener('keypress',separaLetra).eventoKeyPress = 'a'
+// let eventoKeyPress = INPUT_TEXT.addEventListener('keypress',separaLetra).eventoKeyPress = 'a'
 
-function separaLetra (a){
-a.preventDefault()
+// function separaLetra (a){
+// a.preventDefault()
 }
 
 
