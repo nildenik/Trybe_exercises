@@ -105,13 +105,19 @@
 //-----------------------------------------------------------
 
 
-const coolestTvShow = {
-  name: "BoJack Horseman",
-  genre: "adult animation",
-  createdBy: "Raphael Bob-Waksberg",
-  favoriteCharacter: "Princess Carolyn",
-  quote: "Princess Carolyn always lands on her feet.",
-  seasons: 6,
-};
-//este retorna um array cujos elementos são também arrays para cada conjunto chave e valor do objeto
-console.log(Object.entries(coolestTvShow));
+// const coolestTvShow = {
+//   name: "BoJack Horseman",
+//   genre: "adult animation",
+//   createdBy: "Raphael Bob-Waksberg",
+//   favoriteCharacter: "Princess Carolyn",
+//   quote: "Princess Carolyn always lands on her feet.",
+//   seasons: 6,
+// };
+// // for(index in coolestTvShow) {
+// //   console.log('--------');
+// //   console.log('nome:', coolestTvShow[index][0]);
+// //   console.log('genero:', coolestTvShow[index][1]);
+// // };
+// // //este retorna um array cujos elementos são também arrays para cada conjunto chave e valor do objeto
+// console.log(Object.entries(coolestTvShow));
+
