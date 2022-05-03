@@ -84,12 +84,25 @@
 //     console.log(result);
 
 // }
-// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-// let menorNumero = numbers[0];
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menorNumero = numbers[0];
 
-// for(let i = 0; i < numbers.length; i += 1){
-//     if(numbers[i] < menorNumero){
-//         menorNumero = numbers[i];
-//     }
+for(let i = 0; i < numbers.length; i += 1){
+    if(numbers[i] < menorNumero){
+        menorNumero = numbers[i];
+    }
+}
+console.log(menorNumero);
+
+// let numbers = [];
+
+// for(let i = 0; i<=25; i += 1){
+//   numbers.push(i);
 // }
-// console.log(menorNumero);,
+// console.log(numbers);
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+for (let i = 0; i < numbers.length; i +=1) {
+  console.log(numbers[i]/2)
+
+}
